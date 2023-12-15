@@ -2,6 +2,9 @@
 // the macros defined in this file to one or more keys before sourcing this file.
 
 /* left of left half */
+#if !defined X_LN  // number row, left
+    #define X_LN
+#endif
 #if !defined X_LT  // top row, left
     #define X_LT
 #endif
@@ -16,6 +19,9 @@
 #endif
 
 /* between left and right half */
+#if !defined X_MN  // number row, middle
+    #define X_MN
+#endif
 #if !defined X_MT  // top row, middle
     #define X_MT
 #endif
@@ -30,6 +36,9 @@
 #endif
 
 /* right of right half */
+#if !defined X_RN  // number row, right
+    #define X_RN
+#endif
 #if !defined X_RT  // top row, right
     #define X_RT
 #endif

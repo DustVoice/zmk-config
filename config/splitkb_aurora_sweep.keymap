@@ -1,0 +1,13 @@
+/* source keypos definitions */
+#include "../zmk-nodefree-config/keypos_def/keypos_34keys.h"
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS 1
+
+/* activate unicode symbols */
+#define CONFIG_UC 1
+/* Use alt-codes for unicode on Win+Mac */
+#define HOST_OS 2
+
+/* source the main keymap */
+#include "base.keymap"

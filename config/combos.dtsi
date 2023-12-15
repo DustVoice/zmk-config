@@ -29,12 +29,12 @@ ZMK_COMBO(tab,   HRC_TAB,       LM3 LM2,     DEF NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(repeat,HRC_REPEAT,    LM2 LM1,     DEF NAV NUM, COMBO_TERM_FAST)
 
 ZMK_COMBO(cut,   &kp LC(X),     LB3 LB1,     DEF NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(copy,  &kp LC(INS),   LB3 LB2,     DEF NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(paste, &kp LS(INS),   LB2 LB1,     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(copy,  &kp LC(C),     LB3 LB2,     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(paste, &kp LC(V),     LB2 LB1,     DEF NAV NUM, COMBO_TERM_FAST)
 
 /* Horizontal combos - right hand */
-ZMK_COMBO(bspc,  &kp BSPC,      RT1 RT2,     DEF NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(del,   &kp DEL,       RT2 RT3,     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(bspc,  &kp BSPC,      RT1 RT2,     DEF NAV NUM GAMING GAMING_FPS, COMBO_TERM_FAST)
+ZMK_COMBO(del,   &kp DEL,       RT2 RT3,     DEF NAV NUM GAMING GAMING_FPS, COMBO_TERM_FAST)
 
 ZMK_COMBO(lpar,  HRC_LPAR,      RM1 RM2,     DEF     NUM, COMBO_TERM_FAST)
 ZMK_COMBO(rpar,  HRC_RPAR,      RM2 RM3,     DEF     NUM, COMBO_TERM_FAST)
@@ -46,8 +46,10 @@ ZMK_COMBO(rbkt,  &kp RBKT,      RB2 RB3,     DEF     NUM, COMBO_TERM_FAST)
 ZMK_COMBO(lbrc,  &kp LBRC,      RB1 RB2,         NAV    , COMBO_TERM_FAST)
 ZMK_COMBO(rbrc,  &kp RBRC,      RB2 RB3,         NAV    , COMBO_TERM_FAST)
 
-ZMK_COMBO(grk,   &sl UC,        RT1 RT3,     DEF NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(cpgrk, &sls 0,        RT1 RT2 RT3, DEF NAV NUM, COMBO_TERM_FAST)
+#if CONFIG_UC
+  ZMK_COMBO(grk,   &sl UC,        RT1 RT3,     DEF NAV NUM, COMBO_TERM_FAST)
+  ZMK_COMBO(cpgrk, &sls 0,        RT1 RT2 RT3, DEF NAV NUM, COMBO_TERM_FAST)
+#endif
 
 /* Vertical combos - left hand */
 ZMK_COMBO(at,    &kp AT,        LT3 LM3,     DEF NAV NUM, COMBO_TERM_SLOW)
@@ -65,9 +67,29 @@ ZMK_COMBO(caret, &kp CARET,     RT0 RM0,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(plus,  &kp PLUS,      RT1 RM1,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(star,  &kp STAR,      RT2 RM2,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(amps,  &kp AMPS,      RT3 RM3,     DEF NAV NUM, COMBO_TERM_SLOW)
+ZMK_COMBO(excl,  &kp EXCL,      RT4 RM4,     DEF NAV NUM, COMBO_TERM_SLOW)
 
 ZMK_COMBO(under, &kp UNDER,     RM0 RB0,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(minus, &kp MINUS,     RM1 RB1,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(fslh,  &kp FSLH,      RM2 RB2,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(pipe,  &kp PIPE,      RM3 RB3,     DEF NAV NUM, COMBO_TERM_SLOW)
+ZMK_COMBO(qmark, &kp QMARK,     RM4 RB4,     DEF NAV NUM, COMBO_TERM_SLOW)
 
+/* Gaming combo */
+ZMK_COMBO(ext,         &mo GAMING_EXT, LH1 LH0,         GAMING, COMBO_TERM_SLOW)
+ZMK_COMBO(fps_ext, &mo GAMING_FPS_EXT, LH1 LH0,     GAMING_FPS, COMBO_TERM_SLOW)
+
+ZMK_COMBO(selfq,            &kp LC(Q), LT4 LM4,         GAMING, COMBO_TERM_SLOW)
+ZMK_COMBO(selfw,            &kp LC(W), LT3 LM3,         GAMING, COMBO_TERM_SLOW)
+ZMK_COMBO(selfe,            &kp LC(E), LT2 LM2,         GAMING, COMBO_TERM_SLOW)
+ZMK_COMBO(selfr,            &kp LC(R), LT1 LM1,         GAMING, COMBO_TERM_SLOW)
+
+ZMK_COMBO(f1,                  &kp F1, LT4 LM4,     GAMING_EXT, COMBO_TERM_SLOW)
+ZMK_COMBO(f2,                  &kp F2, LT3 LM3,     GAMING_EXT, COMBO_TERM_SLOW)
+ZMK_COMBO(f3,                  &kp F3, LT2 LM2,     GAMING_EXT, COMBO_TERM_SLOW)
+ZMK_COMBO(f4,                  &kp F4, LT1 LM1,     GAMING_EXT, COMBO_TERM_SLOW)
+
+ZMK_COMBO(fps_f1,              &kp F1, LT3 LM4, GAMING_FPS_EXT, COMBO_TERM_SLOW)
+ZMK_COMBO(fps_f2,              &kp F2, LT2 LM3, GAMING_FPS_EXT, COMBO_TERM_SLOW)
+ZMK_COMBO(fps_f3,              &kp F3, LT1 LM2, GAMING_FPS_EXT, COMBO_TERM_SLOW)
+ZMK_COMBO(fps_f4,              &kp F4, LT0 LM1, GAMING_FPS_EXT, COMBO_TERM_SLOW)
