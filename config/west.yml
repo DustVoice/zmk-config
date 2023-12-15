@@ -3,10 +3,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: urob
-      url-base: https://github.com/urob
+      url-base: https://github.com/DustVoice
   projects:
     - name: zmk
-      remote: urob
+      remote: DustVoice
       revision: main
       import: app/west.yml
   self:

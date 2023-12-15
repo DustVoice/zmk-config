@@ -1,0 +1,18 @@
+/* source keypos definitions */
+#include "../zmk-nodefree-config/keypos_def/keypos_60keys_preonic.h"
+
+/* map Preonic's extra keys */
+#define X_LN  &none &none &none &none &none  // number row, left
+#define X_MN  &none &none                    // number row, middle
+#define X_RN  &none &none &none &none &none  // number row, right
+
+#define X_MT  &none   &none                  // top row, middle
+#define X_MM  &none   &none                  // middle row, middle
+#define X_MB  &none   &none                  // bottom row, middle
+#define X_LH  &none   &kp LGUI &smart_mouse  // thumb row, left
+#define X_MH  &none   &none                  // thumb row, middle
+#define X_RH  &bs_del U_WH_D   U_WH_U        // thumb row, right
+
+/* source the main keymap */
+#include "base.keymap"
+
