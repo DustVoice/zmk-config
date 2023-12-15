@@ -2,16 +2,19 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_60keys_preonic.h"
 
 /* map Preonic's extra keys */
-#define X_MN  &none   &none                  // number row, middle
-#define X_MT  &none   &none                  // top row, middle
-#define X_MM  &none   &none                  // middle row, middle
-#define X_MB  &none   &none                  // bottom row, middle
+#define X_LN  &none &none  &none  &none  &none  &none  // number row, left
+#define X_RN  &none &none  &none  &none  &none  &none  // number row, right
 
-#define X_LN  &none  &none  &none  &none  &none  // number row, left
-#define X_RN  &none  &none  &none  &none  &none  // number row, right
+#define X_LT  &none                          // top row, left
+#define X_RT  &none                          // top row, right
+
+#define X_LM  &none                          // middle row, left
+#define X_RM  &none                          // middle row, right
+
+#define X_LB  &none                          // bottom row, left
+#define X_RB  &none                          // bottom row, right
 
 #define X_LH  &none &none  &kp LGUI &smart_mouse // thumb row, left
-#define X_MH                                     // thumb row, middle
 #define X_RH  &bs_del   U_WH_D   U_WH_U   &none  // thumb row, right
 
 /* source the main keymap */
