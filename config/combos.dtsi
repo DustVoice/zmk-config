@@ -72,4 +72,4 @@ ZMK_COMBO(fslh,  &kp FSLH,      RM2 RB2,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(pipe,  &kp PIPE,      RM3 RB3,     DEF NAV NUM, COMBO_TERM_SLOW)
 
 /* Gaming combo */
-ZMK_COMBO(ext,   &mo GAMING_EXT,RH0 RH1,     GAMING,      COMBO_TERM_FAST)
+ZMK_COMBO(ext,   &mo GAMING_EXT,LH1 LH0,     GAMING,      COMBO_TERM_FAST)
