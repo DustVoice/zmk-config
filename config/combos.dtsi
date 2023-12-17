@@ -73,7 +73,7 @@ ZMK_COMBO(pipe,  &kp PIPE,      RM3 RB3,     DEF NAV NUM, COMBO_TERM_SLOW)
 
 /* Gaming combo */
 ZMK_COMBO(ext,   &mo GAMING_EXT,LH1 LH0,     GAMING,      COMBO_TERM_SLOW)
-ZMK_COMBO(ext,   &kp C(Q),      LT4 LM4,     GAMING,      COMBO_TERM_SLOW)
-ZMK_COMBO(ext,   &kp C(W),      LT3 LM3,     GAMING,      COMBO_TERM_SLOW)
-ZMK_COMBO(ext,   &kp C(E),      LT2 LM2,     GAMING,      COMBO_TERM_SLOW)
-ZMK_COMBO(ext,   &kp C(R),      LT1 LM1,     GAMING,      COMBO_TERM_SLOW)
+ZMK_COMBO(selfq, &kp C(Q),      LT4 LM4,     GAMING,      COMBO_TERM_SLOW)
+ZMK_COMBO(selfw, &kp C(W),      LT3 LM3,     GAMING,      COMBO_TERM_SLOW)
+ZMK_COMBO(selfe, &kp C(E),      LT2 LM2,     GAMING,      COMBO_TERM_SLOW)
+ZMK_COMBO(selfr, &kp C(R),      LT1 LM1,     GAMING,      COMBO_TERM_SLOW)
