@@ -15,10 +15,9 @@
 #define NAV 1
 #define FN 2
 #define NUM 3
-#define SYS 4
-#define MOUSE 5
-#define GAMING 6
-#define GAMING_EXT 7
+#define MOUSE 4
+#define GAMING 5
+#define GAMING_EXT 6
 // #define UC 8
 
 #include "combos.dtsi"  // requires layer aliases
