@@ -5,7 +5,8 @@ It consists of a 34-keys base layout that is re-used for various boards, includi
 Aurora Sweep, Aurora Corne and my Preonic.
 It is heavily based on and inspiried by urob's config, whose README is appended to my custom section.
 
-![](img/keymap_dustvoice.png)
+![](img/dustvoice_keymap_1.png)
+![](img/dustvoice_keymap_1.png)
 
 # urob's zmk-config
 
