@@ -1,3 +1,12 @@
+# DustVoice's zmk-config
+
+This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/) configuration.
+It consists of a 34-keys base layout that is re-used for various boards, including my
+Aurora Sweep, Aurora Corne and my Preonic.
+It is heavily based on and inspiried by urob's config, whose README is appended to my custom section.
+
+![](img/keymap_dustvoice.png)
+
 # urob's zmk-config
 
 This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/) configuration.
