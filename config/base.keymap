@@ -2,9 +2,12 @@
 #include <dt-bindings/zmk/keys.h>
 #if CONFIG_WIRELESS
     #include <dt-bindings/zmk/bt.h>
+    #include <dt-bindings/zmk/outputs.h>
     #define _BT_SEL_KEYS_ &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR
+    #define _BT_OUT_KEYS_ &out OUT_BLE &out OUT_USB
 #else
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
+    #define _BT_OUT_KEYS_ &trans &trans
 #endif
 
 #include "../zmk-nodefree-config/helper.h"
