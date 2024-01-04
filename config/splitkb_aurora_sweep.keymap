@@ -4,5 +4,8 @@
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
 
+/* activate greek symbols */
+#define CONFIG_UC 1
+
 /* source the main keymap */
 #include "base.keymap"
