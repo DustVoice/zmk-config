@@ -7,8 +7,7 @@ The base layout is Colemak-DH with the modifications urob proposed in his origin
 Additionally it features a gaming layer with a dedicated extension layer (it is worth noting I currently mainly play League of Legends so it is definitely optimized for that).
 It is heavily based on and inspiried by urob's config, whose README is appended to my custom section.
 
-![](img/dustvoice_keymap_1.jpg)
-![](img/dustvoice_keymap_2.jpg)
+![](img/dustvoice_keymap.jpg)
 
 # urob's zmk-config
 
