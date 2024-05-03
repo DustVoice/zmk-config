@@ -1,5 +1,5 @@
 /* source keypos definitions */
-#include "zmk-helpers/keypos_def/keypos_34keys.h"
+#include "zmk-helpers/key-labels/keypos_34keys.h"
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1

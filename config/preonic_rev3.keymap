@@ -1,5 +1,5 @@
 /* source keypos definitions */
-#include "zmk-helpers/keypos_def/keypos_60keys_preonic.h"
+#include "zmk-helpers/key-labels/keypos_60keys_preonic.h"
 
 /* map Preonic's extra keys */
 #define X_LN  &none &none  &none  &none  &none  &none  // number row, left
