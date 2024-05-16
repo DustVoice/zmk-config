@@ -5,7 +5,7 @@
 #define CONFIG_WIRELESS 1
 
 /* activate gaming layers */
-#define CONFIG_GAMING
+#define CONFIG_GAMING 1
 
 /* activate unicode symbols */
 #define CONFIG_UC 1
