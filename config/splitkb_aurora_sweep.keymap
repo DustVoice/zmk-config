@@ -4,6 +4,9 @@
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
 
+/* activate gaming layers */
+#define CONFIG_GAMING
+
 /* activate unicode symbols */
 #define CONFIG_UC 1
 /* Use alt-codes for unicode on Win+Mac */
