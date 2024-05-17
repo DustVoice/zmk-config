@@ -36,7 +36,11 @@
     #define FPS_FN 9
 #endif
 #if CONFIG_UNICODE
+#if CONFIG_GAMING
     #define UNICODE 10
+#else
+    #define UNICODE 6
+#endif
 #endif
 
 #include "combos.dtsi"  // requires layer aliases
