@@ -7,7 +7,9 @@
 #define X_MB  &none &none                // bottom row, middle
 #define X_LH  &none &none &kp LGUI       // thumb row, left
 #define X_MH  &none &none                // thumb row, middle
-#define X_RH  &smart_mouse U_WH_D U_WH_U // thumb row, right
+// NOTE: Not in use
+// #define X_RH  &smart_mouse U_WH_D U_WH_U // thumb row, right
+#define X_RH  &none U_WH_D U_WH_U // thumb row, right
 
 /* source the main keymap */
 #include "base.keymap"
