@@ -1,22 +1,32 @@
 manifest:
+  defaults:
+    remote: urob
+
   remotes:
-    - name: zmkfirmware
+    - name: upstream
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+
   projects:
+    # Namespace ZMK and its dependencies under zmk/
     - name: zmk
-      remote: urob
       revision: going-modular
-      import: app/west.yml
+      path: ""
+      import:
+        file: app/west.yml
+        path-prefix: zmk
+
+    # Custom modules
     - name: zmk-helpers
-      remote: urob
       revision: main
+      path: modules/helpers
     - name: zmk-auto-layer
-      remote: urob
       revision: main
+      path: modules/auto-layer
     - name: zmk-tri-state
-      remote: urob
       revision: main
+      path: modules/tri-state
+
   self:
     path: config
