@@ -1,3 +1,14 @@
+# DustVoice's zmk-config
+
+This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/) configuration.
+It consists of a 34-keys layout that is re-used for various boards, including my
+Aurora Sweep, Aurora Corne and my Preonic.
+The base layout is Colemak-DH with the modifications urob proposed in his original config.
+Additionally it features a gaming layer with a dedicated extension layer (it is worth noting I currently mainly play League of Legends so it is definitely optimized for that).
+It is heavily based on and inspiried by urob's config, whose README is appended to my custom section.
+
+![](img/dustvoice_keymap_0.jpg)
+
 # urob's zmk-config
 
 This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)

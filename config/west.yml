@@ -4,13 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+    - name: dustvoice
+      url-base: https://github.com/dustvoice
   projects:
     - name: zmk
       remote: urob
       revision: going-modular
       import: app/west.yml
     - name: zmk-helpers
-      remote: urob
+      remote: dustvoice
       revision: main
     - name: zmk-auto-layer
       remote: urob
