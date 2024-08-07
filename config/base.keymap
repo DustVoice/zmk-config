@@ -145,9 +145,6 @@ ZMK_TAP_DANCE(num_dance,
     tapping-term-ms = <200>;
     bindings = <&sl NUM>, <&num_word NUM>;  // reverse this for sticky-num on single tap
 )
-&num_word {  // num-word, requires PR #1451
-    layers = <NUM>;
-};
 
 // NOTE: Not in use
 // smart-mouse, requires PR #1366
