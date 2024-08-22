@@ -249,7 +249,7 @@ ZMK_MACRO(win_sleep,
 
 /* Keymap */
 
-ZMK_CONDITIONAL_LAYER(NAV FN, SYS)  // NAV + FN --> SYS
+ZMK_CONDITIONAL_LAYER(sys, NAV FN, SYS)  // NAV + FN --> SYS
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
