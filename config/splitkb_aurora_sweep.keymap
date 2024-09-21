@@ -2,13 +2,11 @@
 #include "zmk-helpers/key-labels/34.h"
 
 /* activate bluetooth */
-#define CONFIG_WIRELESS 1
+#define CONFIG_WIRELESS
 
 /* activate gaming layers */
-#define CONFIG_GAMING 1
+#define CONFIG_GAMING
 
-/* activate unicode symbols */
-#define CONFIG_UC 1
 /* Use alt-codes for unicode on Win+Mac */
 #define HOST_OS 2
 
