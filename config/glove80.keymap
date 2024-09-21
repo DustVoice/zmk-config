@@ -20,8 +20,12 @@
 #define X_RH    &kp UP &kp DOWN &none &none &none
 
 /* activate bluetooth */
-#define CONFIG_WIRELESS 1
+#define CONFIG_WIRELESS
 
 /* source the main keymap */
 #include "base.keymap"
 
+/* Local Variables: */
+/* mode: c */
+/* End: */
+/* vim: set ft=c tw=174: */

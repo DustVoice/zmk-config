@@ -8,10 +8,15 @@
 #define X_RH  &none  // thumb row, right
 
 /* activate bluetooth */
-#define CONFIG_WIRELESS 1
+#define CONFIG_WIRELESS
 
 /* source the main keymap */
 #include "base.keymap"
 
 /* use 5-column layout for Zen */
 ZMK_APPLY_MATRIX_TRANSFORM(five_column_transform)
+
+/* Local Variables: */
+/* mode: c */
+/* End: */
+/* vim: set ft=c tw=174: */
