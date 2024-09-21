@@ -101,4 +101,7 @@ ZMK_COMBO(f_f5,  &kp F5,        LT1 LM1,          FPS_FN, COMBO_TERM_SLOW, COMBO
 ZMK_COMBO(f_f1,  &kp F1,        LT0 LM0,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 #endif
 
+/* Local Variables: */
+/* mode: c */
+/* End: */
 /* vim: set ft=c tw=174: */

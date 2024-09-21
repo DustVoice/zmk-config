@@ -15,3 +15,8 @@
 
 /* use 5-column layout for Zen */
 ZMK_APPLY_MATRIX_TRANSFORM(five_column_transform)
+
+/* Local Variables: */
+/* mode: c */
+/* End: */
+/* vim: set ft=c tw=174: */

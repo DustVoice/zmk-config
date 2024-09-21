@@ -14,3 +14,8 @@
 
 /* source the main keymap */
 #include "base.keymap"
+
+/* Local Variables: */
+/* mode: c */
+/* End: */
+/* vim: set ft=c tw=174: */

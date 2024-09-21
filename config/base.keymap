@@ -381,4 +381,7 @@ ZMK_LAYER(unicode,
 )
 #endif
 
+/* Local Variables: */
+/* mode: c */
+/* End: */
 /* vim: set ft=c tw=174: */
