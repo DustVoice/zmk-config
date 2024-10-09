@@ -92,11 +92,10 @@ ZMK_COMBO(f_n2,  &kp N2,        LT2 LM2,             FPS, COMBO_TERM_SLOW, COMBO
 ZMK_COMBO(f_n3,  &kp N3,        LT1 LM1,             FPS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(f_n4,  &kp N4,        LT0 LM0,             FPS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
-ZMK_COMBO(f_f2,  &kp F2,        LT4 LM4,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(f_f3,  &kp F3,        LT3 LM3,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(f_f4,  &kp F4,        LT2 LM2,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(f_f5,  &kp F5,        LT1 LM1,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(f_f1,  &kp F1,        LT0 LM0,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(f_f1,  &kp F1,        LT3 LM3,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(f_f2,  &kp F2,        LT2 LM2,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(f_f3,  &kp F3,        LT1 LM1,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(f_f4,  &kp F4,        LT0 LM0,          FPS_FN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 #endif
 
 /* Local Variables: */
