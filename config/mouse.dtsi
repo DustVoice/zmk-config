@@ -21,12 +21,12 @@
 
 &mmv_input_listener {
   warp {
-    layers = <FN>;
+    layers = <SYS>;
     input-processors = <&zip_xy_scaler 3 1>;
     process-next;
   };
   precision {
-    layers = <SYS>;
+    layers = <FN>;
     input-processors = <&zip_xy_scaler 1 3>;
   };
 };
